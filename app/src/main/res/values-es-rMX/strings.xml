@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EloteMan</string>
+    <string name="title_activity_vendor_maps">Mapa de Vendedor</string>
+    <string name="title_activity_eater_maps">Mapa de Comer Elote</string>
+    <string name="welcome_activity_name">¡Bienvenido a EloteMan!</string>
+    <string name="are_you_selling_corn_text_view">¿Estás vendiendo elote?</string>
+    <string name="welcome_text_view">¡Bienvenido!</string>
+    <string name="begin_as_vendor_button">Vender</string>
+    <string name="do_you_want_to_eat_corn_click_eat_corn">¿Quieres comer elote?</string>
+    <string name="vendor_button">Vendedor</string>
+    <string name="eat_corn_button">Comer Elote</string>
+    <string name="click_here_to_enter_email_edit_text">Haga clic aquí para entrar en el correo electrónico</string>
+    <string name="click_here_to_enter_password_edit_text">Haga clic aquí para ingresar la contraseña</string>
+    <string name="login_button_text">Iniciar sesión</string>
+    <string name="registration_button_text">Registro</string>
+    <string name="vendor_login_activity_title">Sesión del Vendedor</string>
+    <string name="eat_corn_login_activity_title">Sesión del Comer Elote</string>
+    <string name="logout_text">"Cerrar Sesión"</string>
+    <string name="already_a_user">¿Ya eres usuario?</string>
+    <string name="first_time_user">¿Usuario primerizo?</string>
+    <string name="logout_menu_text"><font color="#303F9F"><b>Cerrar Sesión</b></font></string>
+    <string name="eat_corn_welcome_button">Comer</string>
+    <string name="user_current_location_marker_title">Esta es mi ubicacion</string>
+    <string name="on_request_permission_gps_not_located">No está conectado al GPS, permita que el GPS lo localice.</string>
+    <string name="show_alert_positive_button_location_settings">Configuración de ubicación</string>
+    <string name="show_alert_title_enable_location">Habilitar Ubicación</string>
+    <string name="show_dialog_ok_service_permissions_required">Se requieren permisos de servicio para esta app</string>
+    <string name="explain_go_to_app_settings">Necesitas dar algunos permisos obligatorios para continuar. ¿Quieres ir a la configuración de la aplicación?</string>
+    <string name="explain_positive_button">Si</string>
+    <string name="explain_negative_button">Cancelar</string>
+    <string name="press_back_one_more_time_to_exit">Presione atrás una vez más para salir</string>
+    <string name="press_button_again_to_logout">Presione el botón rápidamente dos veces para cerrar sesión</string>
+    <string name="registration_fail_toast"><b>Registro fallido. Inténtalo de nuevo.</b></string>
+    <string name="registration_success_toast"><b>¡Registración exitosa! Por favor clic inicie sesión ahora.</b></string>
+    <string name="login_failed_toast"><b>Error de inicio de sesion. \nCompruebe la conexión a internet. \nInténtalo de nuevo.</b></string>
+    <string name="login_success_toast">¡Acceso exitoso!</string>
+    <string name="toast_location_not_detected">Ubicación no detectada</string>
+    <string name="cd_button_to_press_if_you_are_a_vendor_selling_corn">" Botón a presionar si eres vendedor vendiendo elote."</string>
+    <string name="cd_button_to_press_if_you_want_to_eat_corn">Botón a presionar si quieres comer elote.</string>
+    <string name="cd_button_to_press_if_you_are_a_first_time_user_and_need_to_register">Botón para presionar si es usuario por primera vez y necesita registrarse</string>
+    <string name="cd_button_to_press_if_you_already_registered_and_need_to_login">Botón para presionar si ya está registrado y necesita iniciar sesión</string>
+    <string name="cd_button_to_press_twice_quickly_in_order_to_logout">Botón para presionar dos veces rápidamente para cerrar sesión</string>
+    <string name="cd_click_to_go_to_settings_and_permission_to_turn_on_or_off_gps_location">Haga clic para ir a Configuración y permiso para activar o desactivar la ubicación GPS</string>
+    <string name="show_alert_location_settings_off_1">" La configuración de su ubicación está configurada en 'Desactivado'. Por favor, habilite la ubicación para"</string>
+    <string name="show_alert_location_settings_off_2">utilizar esta aplicación</string>
+    <string name="widget_click_to_turn_gps_on_or_off_select_permissions">Clic, y Permisos, ubicación si o no</string>
+    <string name="onlineVendorMarker_title">Clic en el botón de abajo a la derecha para obtener direcciones!</string>
+    <string name="help_button">Ayuda/ Más información</string>
+    <string name="vendor_maps_screen_info">►Mantenga esta pantalla abierta para aparecer a los clientes.
+        \n►Esta aplicación no rastreará su ubicación después de que abandone esta pantalla o el aplicación.
+        \n►Para mejores resultados no se mueva cuando tenga esta pantalla abierta.
+        \n►Apague la pantalla o abandone la aplicación cuando desee mover su ubicación.
+    </string>
+    <string name="help_dialog_title">Informacion Útil</string>
+    <string name="login_help_button_text">¿No tienes correo electrónico o has olvidado la información de inicio de sesión? Haga clic aquí</string>
+    <string name="password_warning">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="email_already_exists">Ya existe el correo electrónico.</string>
+    <string name="make_a_better_password">Hacer una mejor contraseña</string>
+    <string name="click_to_begin">Clic para comenzar</string>
+    <string name="success_login">" ¡Éxito! Disfruta de la aplicación!"</string>
+    <string name="loading_toast_text">Cargando ... puede tardar hasta 30 segundos.</string>
+    <string name="login_info_text">Inicia sesión de forma anónima\nNo es necesario registrarse\nBasado en la comunidad, crecer juntos\n♥</string>
+    <string name="click_to_get_started_button">Clic para comenzar!</string>
+    <string name="no_internet_connection">Error de conexión. Compruebe internet. Si está en WiFi, desactive Wifi, cierre sesión y vuelva a iniciar sesión sin WiFi.</string>
+    <string name="find_elote_login_text">¿Has encontrado elote? Dígale al vendedor que descargue EloteMan</string>
+    <string name="vendor_promote_login">Dile a tus clientes que descarguen EloteMan</string>
+    <string name="eloteman_slogan">Cuando pienses en elote, piensa en EloteMan</string>
+    <string name="privacy_policy_text">Política de privacidad</string>
+</resources>

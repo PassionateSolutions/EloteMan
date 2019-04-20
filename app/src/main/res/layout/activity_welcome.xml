@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".WelcomeActivity">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/welcome_screen_logo"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:contentDescription="@null"
+                android:src="@drawable/eloteman_banner" />
+
+            <Button
+                android:id="@+id/vendor_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:padding="20dp"
+                android:elevation="14dp"
+                android:textSize="18dp"
+                android:background="@drawable/universal_round_corners"
+                android:backgroundTint="@color/orange"
+                android:contentDescription="@string/cd_button_to_press_if_you_are_a_vendor_selling_corn"
+                android:fontFamily="@string/eloteMan_font"
+                android:text="@string/begin_as_vendor_button"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/eat_corn_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:padding="20dp"
+                android:elevation="14dp"
+                android:textSize="18dp"
+                android:background="@drawable/universal_round_corners"
+                android:backgroundTint="@color/orange"
+                android:contentDescription="@string/cd_button_to_press_if_you_want_to_eat_corn"
+                android:fontFamily="@string/eloteMan_font"
+                android:text="@string/eat_corn_welcome_button"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="12dp"
+                android:padding="20dp"
+                android:fontFamily="@string/eloteMan_font"
+                android:textColor="@color/elote_blue"
+                android:textSize="20sp"
+                android:text="@string/eloteman_slogan"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="@string/privacy_policy_text"
+                android:textAlignment="center"
+                android:background="@drawable/universal_round_corners"
+                android:backgroundTint="#FFFFFF"
+                android:textSize="8sp"
+                android:onClick="privacyPolicy"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

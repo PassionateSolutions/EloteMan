@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/logoutMenuOption"
+    android:title="@string/logout_menu_text"
+    android:contentDescription="@string/cd_button_to_press_twice_quickly_in_order_to_logout"
+    app:showAsAction="ifRoom"/>
+</menu>

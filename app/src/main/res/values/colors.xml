@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="background">#388E3C</color>
+    <color name="orange">#FF5722</color>
+    <color name="color_blue">#303F9F</color>
+    <color name="elote_blue">#303F9F</color>
+    <color name="dark_green">#388E3C</color>
+</resources>
