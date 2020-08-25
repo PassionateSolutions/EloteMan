@@ -98,4 +98,8 @@ includes to copy, distribute, or modify my work.
  4/20/2019
 
  - Added ScrollViews to Log-in Screens and re-sized "Help/More Info" button in the Eat Elote Map to work better with Screen-Size and Font-Size Accessibility.
+ 
+ 8/25/2020
+ 
+ - Updated the API requirement by Google to reach up to API 30 devices.
 
